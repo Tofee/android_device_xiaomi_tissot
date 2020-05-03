@@ -649,3 +649,9 @@ on property:vold.decrypt=trigger_restart_min_framework
 
 on property:vold.decrypt=trigger_restart_framework
     restart time_daemon
+
+service miniaf /system/bin/miniafservice
+    class main
+    user system
+    group audio 
+    
