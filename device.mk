@@ -113,7 +113,9 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     camera.msm8953 \
     libmm-qcamera \
-    Snap
+    Snap \
+    minimediaservice \
+    minisfservice
 
 # Consumerir
 #PRODUCT_PACKAGES += \
